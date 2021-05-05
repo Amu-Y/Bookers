@@ -5,8 +5,7 @@
     <h1>Editing Book</h1>
 
     <% if @book.errors.any? %>
-     <%= @book.errors.count %>件のエラーが発生しました
-     <% @book.errors.full_messages.each do |message| %>
+     <% @book.errors.full_messages.each do |message| %>error
      <%= message %>
      <% end %>
     <% end %>
@@ -21,6 +20,6 @@
 
     <%= link_to 'Show' ,book_path(@book.id) %>
     |
-    <%= link_to 'Back' ,books_path(@book.id) %>
+    <%= link_to 'Back' ,books_path %>
     <% end %>
   </body>
