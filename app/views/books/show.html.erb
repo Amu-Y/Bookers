@@ -1,14 +1,10 @@
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css" />
-    <title></title>
-  </head>
+
 
 <body>
   
-  <%= flash[:notice] %>
+  <div id = "notice">
+     <%= flash[:notice] %>
+  </div>
   
     <p id="notice"></p>
 
@@ -23,7 +19,7 @@
 </p>
 
 <%= link_to 'Edit' ,edit_book_path(@book.id) %>
+|
 <%= link_to 'Back' ,books_path(@book.id) %>
 
 </body>
-</html>
