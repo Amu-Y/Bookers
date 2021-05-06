@@ -8,8 +8,6 @@
 }
 
 body {
-    background-color: #fff;
-    color: #333;
     font-family: verdana, arial, helvetica, sans-serif;
     font-size: 13px;
     line-height: 18px;
@@ -91,4 +89,9 @@ p, ol, ul, td {
     padding-bottom: 0;
     margin-bottom: 20px;
     background-color: #f0f0f0;
+}
+
+div {
+    margin-top : 10px;
+    margin-bottom : 10px;
 }
